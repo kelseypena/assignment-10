@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Superhero Carousel</title>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+      <link rel="stylesheet" href="css/main.css">
+  </head>
+    <body>
+       <div class="container">
+        <div class="row">
+         <div class="col-xs-12">
+             <div id="intro">
+             <h1>Superhero Carousel</h1>
+                 <p>Click through the carousel to view different superhero icons! Icons provided by <a href="https://www.iconfinder.com/iconsets/UltraBuuf">Icon Finder</a>. Used with permission (non-commercial).</p>
+             </div>
+        <div id="superheroCarousel" class="carousel slide" data-ride="carousel">
+        <!-- Indicators -->
+            <ol class="carousel-indicators">
+             <li data-target="#superheroCarousel" data-slide-to="0" class="active"></li>
+             <li data-target="#superheroCarousel" data-slide-to="1"></li>
+             <li data-target="#superheroCarousel" data-slide-to="2"></li>
+             <li data-target="#superheroCarousel" data-slide-to="3"></li>
+            </ol>
+
+       <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="images/batman.png" alt="Photo: Batman icon">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/cptamerica.png" alt="Photo: Captain america icon">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/ironman.png" alt="Photo: Ironman icon">
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+                <div class="item">
+                    <img src="images/wolverine.png" alt="Photo: Wolverine icon"> 
+                    <div class="carousel-caption">
+                    </div>
+                </div>
+            </div>
+
+        <!-- Controls -->
+            <a class="left carousel-control" href="#superheroCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#superheroCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+  </div>
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
+       
